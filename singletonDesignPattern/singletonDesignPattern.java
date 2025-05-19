@@ -19,7 +19,7 @@ class Logger {
     }
 
     void log(String message) {
-        System.out.println("Log: "  + message);
+        System.out.println("Log: " + message);
     }
 }
 
