@@ -1,4 +1,4 @@
-package factoryDesignPattern;
+package CreationalDesignPattern.factoryDesignPattern;
 
 /* useful in cases where we want to create variety of objects belonging to different classes
    instead of creating each object separatley we can create a centralized class to create those objects

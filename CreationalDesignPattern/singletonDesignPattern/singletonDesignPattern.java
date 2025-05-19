@@ -3,7 +3,7 @@
  * no multiple users because that would lead to wastage of resources
  */
 
-package singletonDesignPattern;
+package CreationalDesignPattern.singletonDesignPattern;
 
 class Logger {
     private static Logger logger = null;

@@ -2,7 +2,7 @@
 /* if you have a lot of attributes and you only want to initilaize siome attributes and not all
  * then you would have to create a lot of constructors so it becomes very cumbersome
  */
-package builderDesignPattern;
+package CreationalDesignPattern.builderDesignPattern;
 
 public class car {
 
