@@ -3,10 +3,10 @@
  * this reduces coupling and is an eddicient approach since it saves time
  */
 
+/* given below is the traditional approach without following observer design pattern */
 package BehaviouralDesignPattern;
 
 import java.util.ArrayList;
-import java.util.List;
 
 class YoutubeChannel {
 
@@ -59,7 +59,7 @@ class Subscriber {
     }
 }
 
-public class ObserverDesignPattern {
+public class observerDesignPattern {
 
     public static void main(String[] args) {
         YoutubeChannel channel1 = new YoutubeChannel("Madhav Reacts");
