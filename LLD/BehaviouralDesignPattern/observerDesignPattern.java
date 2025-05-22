@@ -1,6 +1,6 @@
 /* it is used when we want to send to send some info/notification among all objects similar to subscribers of a yt channel
  * so instead of indivdually notifying each subscriber we can communicate to them together as a whole
- * this reduces coupling and is an eddicient approach since it saves time
+ * this reduces coupling and is an efficient approach since it saves time
  */
 
 /* given below is the traditional approach without following observer design pattern */
