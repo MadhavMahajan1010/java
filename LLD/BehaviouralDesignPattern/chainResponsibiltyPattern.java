@@ -83,7 +83,7 @@ class Director extends Approver {
 
 }
 
-public class chainResponsibiltyDesignPattern {
+public class chainResponsibiltyPattern {
 
     public static void main(String[] args) {
 
