@@ -5,11 +5,11 @@ package CreationalDesignPattern;
    helps to write clean, modular, maintainable and decoupled code
  */
 
-interface vehicle {
+interface vehicle2 {
     void start();
 }
 
-class car implements vehicle {
+class car2 implements vehicle2 {
 
     @Override
     public void start() {
@@ -17,36 +17,37 @@ class car implements vehicle {
     }
 }
 
-class bike implements vehicle {
+class bike2 implements vehicle2 {
     @Override
     public void start() {
         System.out.println("bike is getting started");
     }
 }
 
-class vehicleFactory {
+class vehicleFactory2 {
 
-    public static vehicle getVehicle(String type) {
+    public static vehicle2 getVehicle(String type) {
 
-        vehicle v;
+        vehicle2 v;
         if (type.equals("car")) {
-            v = new car();
+            v = new car2();
             return v;
         } else if (type.equals("bike")) {
-            v = new bike();
+            v = new bike2();
             return v;
         }
         return null;
     }
 }
 
+
 public class factoryDesignPattern {
 
     public static void main(String args[]) {
 
-        vehicle car = vehicleFactory.getVehicle("car");
+        vehicle2 car = vehicleFactory2.getVehicle("car");
         car.start();
-        vehicle bike = vehicleFactory.getVehicle("bike");
+        vehicle2 bike = vehicleFactory2.getVehicle("bike");
         bike.start();
     }
 
