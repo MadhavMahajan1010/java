@@ -4,7 +4,7 @@ class bakeGoods {
         System.out.println("bake goods");
     }
 }
-
+ 
 class manageAccount {
     void manageAccount() {
         System.out.println("manage account");
@@ -17,10 +17,10 @@ class manageInvetory {
     }
 }
 
-// single response principe
+// single response principle
 // example for bad code where a sigle class is performing multiple tasks instead
 // of a single class we should have an
-// individual class for each functionlaity so that changes in one doesnt affect
+// individual class for each functionality so that changes in one doesnt affect
 // the functioning of the other code and
 // more readable, maintainable and clean code
 class restaurant {
@@ -43,7 +43,7 @@ class restaurant {
 // extension and closed for modification
 /*
  * now if we want to add other shapes as well then instead of writing them in
- * the same class and creating separate
+ * the same class and creating sepamrate
  * functions we should create and abstract class or intefrace for the area and
  * create separate class for each of then shapes
  * and then calculate the area inside those classes so that the current code
